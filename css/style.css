@@ -56,6 +56,30 @@ a {
   color: #fff;
 }
 
+.showcase-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-self: center;
+}
+
+.showcase-content img {
+  width: 50%;
+}
+
+.showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.showcase-content p {
+  margin: 20px 0;
+}
+
 .container {
   max-width: 1100px;
   padding: 0 30px;
