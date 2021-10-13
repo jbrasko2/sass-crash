@@ -1,3 +1,4 @@
+$font-stack: Arial, Helvetica, sans-serif;
 $light-color: #f4f4f4;
 
 * {
@@ -8,6 +9,6 @@ $light-color: #f4f4f4;
 
 body {
   background-color: $light-color;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $font-stack;
   line-height: 1.6;
 }
