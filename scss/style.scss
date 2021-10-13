@@ -40,13 +40,13 @@ a {
       padding: 15px;
     }
 
+    a {
+      color: set-text-color($primary-color);
+    }
+
     a:hover {
       color: $secondary-color;
     }
-  }
-
-  a {
-    color: set-text-color($primary-color);
   }
 
   &-content {
@@ -69,5 +69,3 @@ a {
     }
   }
 }
-
-

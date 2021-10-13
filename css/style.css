@@ -19,10 +19,12 @@
 
 .btn-primary {
   background-color: white;
+  color: #333;
 }
 
 .btn-secondary {
   background-color: #ff8700;
+  color: #fff;
 }
 
 * {
@@ -75,12 +77,12 @@ a {
   padding: 15px;
 }
 
-.showcase nav a:hover {
-  color: #ff8700;
+.showcase nav a {
+  color: #333;
 }
 
-.showcase a {
-  color: #333;
+.showcase nav a:hover {
+  color: #ff8700;
 }
 
 .showcase-content {
