@@ -19,10 +19,37 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .showcase {
   background-color: $primary-color;
   color: #fff;
   height: 600px;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    li {
+      padding: 15px;
+    }
+
+    a:hover {
+      color: $secondary-color;
+    }
+  }
+
+  a {
+    color: #fff;
+  }
 }
 
 .container {
